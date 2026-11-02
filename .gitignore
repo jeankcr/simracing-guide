@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.vscode/
+*.code-workspace
+
+# Copia de seguridad que crea el editor al guardar
+data/knowledge.respaldo.json
+
+# Se regeneran en cada publicación (crawler/build.py)
+site/data.json
+site/knowledge.json
