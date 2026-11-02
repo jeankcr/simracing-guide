@@ -4,25 +4,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f2f3f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#07080a" media="(prefers-color-scheme: dark)">
 <title>Guía de Compatibilidad SimRacing · Intelec</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,700;1,800&family=Barlow:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="guia">
 <header class="top">
   <div class="wrap top-in">
     <a class="brand" href="#" id="home">
-      <span class="logo" aria-hidden="true">⚙</span>
+      <span class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.4"/><path d="M9.6 12H3M14.4 12H21M12 14.4V21"/></svg>
+      </span>
       <span><strong>Guía de Compatibilidad</strong><small>SimRacing · uso interno de ventas</small></span>
     </a>
     <label class="search">
       <span class="sr">Buscar producto</span>
+      <svg class="i si" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <input id="q" type="search" placeholder="Buscar producto, marca o SKU…" autocomplete="off">
+      <kbd aria-hidden="true">/</kbd>
     </label>
   </div>
 </header>
 
 <main class="wrap" id="app" aria-live="polite">
-  <p class="loading">Cargando catálogo…</p>
+  <p class="loading sr">Cargando catálogo…</p>
+  <div class="skel" aria-hidden="true">
+    <div class="sk sk-s"></div>
+    <div class="sk sk-t"></div>
+    <div class="sk sk-l"></div>
+    <div class="sk-grid"><div class="sk sk-c"></div><div class="sk sk-c"></div><div class="sk sk-c"></div></div>
+  </div>
 </main>
 
 <footer class="wrap foot">
