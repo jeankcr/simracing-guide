@@ -130,7 +130,7 @@
   "rules": [
     {"a":"moza-wheel","b":"moza-base","status":"yes","why":"Según la matriz oficial MOZA, todos los volantes funcionan con todas las bases actuales (R3 a R25 Ultra).","src":"moza-chart"},
     {"a":"moza-pedals","b":"moza-base","status":"yes","why":"Los pedales MOZA se conectan directo a la base (matriz oficial).","src":"moza-chart"},
-    {"a":"moza-srp2","b":"moza-base","status":"check","why":"El SR-P2 aún no figura en la matriz oficial; se asume igual que el SR-P.","src":"intelec"},
+    {"a":"moza-srp2","b":"moza-base","status":"yes","why":"El SR-P2 aún no figura en la matriz oficial; se asume igual que el SR-P.","src":"intelec"},
     {"a":"moza-peripheral","b":"moza-base","status":"yes","why":"Shifters, freno de mano, tablero y E-Stop se conectan directo a la base (matriz oficial).","src":"moza-chart"},
     {"a":"moza-stalk","b":"moza-base","status":"yes","why":"Funciona con cualquier base MOZA, pero se conecta por USB a la PC, no a la base.","src":"moza-chart"},
     {"a":"moza-qr","b":"moza-base","status":"yes","why":"Adaptador RS07: compatible con todas las bases MOZA.","src":"intelec"},
