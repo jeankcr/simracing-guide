@@ -125,7 +125,8 @@
     "470156": {"role":"wheel","tags":["moza-wheel"],"pf":"YNN","note":"Compatible con bases de terceros mediante MOZA Hub."},
     "470166": {"role":"base","tags":["base","moza-base","moza-r21"],"pf":"YNN","note":"Diseñada para PC."},
     "470175": {"role":"bundle","tags":["base","moza-base","moza-r5","moza-es-wheel"],"pf":"YNN","note":"R5 Pro + volante ES Lite + pedales SR-P Lite2. Solo PC."},
-    "470188": {"role":"pedals","tags":["pedals","moza-pedals","moza-srp2"],"pf":"YCN","note":"SR-P2 aún no aparece en la matriz oficial; se asume el mismo ecosistema que SR-P."}
+    "470188": {"role":"pedals","tags":["pedals","moza-pedals","moza-srp2"],"pf":"YCN","note":"SR-P2 aún no aparece en la matriz oficial; se asume el mismo ecosistema que SR-P."},
+    "472668": {"role":"bundle","tags":[],"pf":"YNN","note":""}
   },
   "rules": [
     {"a":"moza-wheel","b":"moza-base","status":"yes","why":"Según la matriz oficial MOZA, todos los volantes funcionan con todas las bases actuales (R3 a R25 Ultra).","src":"moza-chart"},
